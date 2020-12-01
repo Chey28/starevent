@@ -1,0 +1,123 @@
+<app-booking></app-booking>
+
+<hr>
+<br>
+<div class="form">
+<div class="field is-horizontal">
+    <div class="field-label is-normal">
+      <label class="label">From</label>
+    </div>
+    <div class="field-body">
+      <div class="field">
+        <p class="control is-expanded has-icons-left">
+          <input class="input" type="text" placeholder="Name">
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </p>
+      </div>
+      <div class="field">
+        <p class="control is-expanded has-icons-left has-icons-right">
+          <input class="input is-success" type="email" placeholder="Email" >
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="field is-horizontal">
+    <div class="field-label"></div>
+    <div class="field-body">
+      <div class="field is-expanded">
+        <div class="field has-addons">
+          <p class="control">
+            <a class="button is-static">
+              +91
+            </a>
+          </p>
+          <p class="control is-expanded">
+            <input class="input" type="tel" placeholder="Your phone number">
+          </p>
+        </div>
+        <p class="help">Do not enter the first zero</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="field is-horizontal">
+    <div class="field-label is-normal">
+      <label class="label">Contact through</label>
+    </div>
+    <div class="field-body">
+      <div class="field is-narrow">
+        <div class="control">
+          <div class="select is-fullwidth">
+            <select>
+              <option selected>Select one</option>
+              <option>Email</option>
+              <option>Phone</option>
+              
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="field is-horizontal">
+    <div class="field-label">
+      <label class="label ">Already a member?</label>
+    </div>
+    <div class="field-body">
+      <div class="field is-narrow">
+        <div class="control">
+          <label class="radio">
+            <input type="radio" name="member">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" name="member">
+            No
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <div class="field is-horizontal">
+    <div class="field-label is-normal">
+      <label class="label">Message</label>
+    </div>
+    <div class="field-body">
+      <div class="field">
+        <div class="control">
+          <textarea class="textarea" placeholder="Anything in particular?"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="field is-horizontal">
+    <div class="field-label">
+      <!-- Left empty for spacing -->
+    </div>
+    <div class="field-body">
+      <div class="field">
+        
+        <div class="control" style="margin-top:10px">
+          <button routerLink="/bookingsuccess" class="button is-dark" id="buttoncenter">
+            Send message
+          </button>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 

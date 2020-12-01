@@ -10,6 +10,9 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { BookingComponent } from './booking/booking.component';
 import { CardsComponent } from './cards/cards.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
+import { EventselectionComponent } from './eventselection/eventselection.component';
+import { BookingsuccessComponent } from './bookingsuccess/bookingsuccess.component';
 
 
 @NgModule({
@@ -21,6 +24,9 @@ import { CardsComponent } from './cards/cards.component';
     ContactComponent,
     BookingComponent,
     CardsComponent,
+    UserDetailsComponent,
+    EventselectionComponent,
+    BookingsuccessComponent,
     
   ],
   imports: [

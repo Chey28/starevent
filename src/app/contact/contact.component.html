@@ -1,0 +1,96 @@
+<section class="hero is-bold is-dark">
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title has-text-centered">Contact Us</h1> 
+        </div>
+    </div>
+
+</section>
+
+<div class="columns">
+    <div class="column is-half">
+<section class="section">
+    
+    <div class="container" style="margin: 0 0 0 30px;">
+        
+        <!-- form -->
+        <form (ngSubmit)="submitForm()" action="https://formspree.io/f/mjvpeanl" method="POST" >
+            <!--name-->
+            <!-- <form (ngSubmit)="submitForm()" action="https://formsubmit.co/saichaithanya288@gmail.com" method="POST"> -->
+                
+            <div class="feild">
+                <label for="" class="label">Name</label>
+                <input 
+                type="text" 
+                name="name" 
+                class="input" 
+                [(ngModel)]="name" 
+                placeholder="Enter Your Name"
+                required>
+                
+                <div class= "help is-error">
+                    *Your Name Is Required
+                </div>
+            </div>
+                
+            <!--email-->
+            <div class="feild top-margin">
+                <label for="" class="label">Email</label>
+                <input 
+                type="email " 
+                name="email" 
+                class="input right-margin" 
+                [(ngModel)]="email" 
+                placeholder="Enter Your Email"
+                required >
+                <div class= "help is-error">
+                    *Your Email Is Required
+                </div>
+            </div>
+
+            <!--message-->
+            <div class="feild top-margin ">
+                <label for="" class="label">Your Message</label>
+
+                <input 
+                type="text " 
+                name="text" 
+                class="input mb" 
+                [(ngModel)]="message" 
+                placeholder="How can we Help ?"
+                required >
+                
+            </div>
+            <div class="top-margin">
+                <label class="checkbox">
+                    <input id="checkbox" class="styled" type="checkbox">
+                    &nbsp;You Can Call Me
+                </label>
+            </div>
+        
+            
+            <!--button-->
+            <button type="submit" class="button is-black top-margin"> Submit</button>
+        </form>
+        
+        	
+    </div>
+</section>
+</div>
+
+
+<div class="aside"  style="margin-right: auto;">
+    <h3 style="font-size: 30px;">Our Location</h3>
+    <address>
+        Some Place On Earth &middot;
+        This Street &middot;
+        Besinde The Other Street &middot;
+        NS B3E 1H4, Canada
+    </address>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.076293391551!2d-63.30732943287676!3d44.738460267992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a3101fa18dfaf%3A0x7fe31169ad1dd5a!2sThat%20St%20%26%20This%20St%2C%20Porters%20Lake%2C%20NS%20B3E%201H4%2C%20Canada!5e0!3m2!1sen!2sin!4v1606802709123!5m2!1sen!2sin" width="400" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+
+</div>
+

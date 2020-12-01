@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.top-margin{
+    margin-top: 12px;
+    
+}
+input:not([type="radio"]):not([type="checkbox"]),textarea{
+
+	display: block;
+	margin-top: 0.4rem;
+	width: 30rem;
+	height: 2.5rem;
+	border-radius: .5rem;
+	font-size: medium;
+
+}
+
+.mb
+{
+    height:8rem !important;
+}
+::-webkit-input-placeholder{
+    font-size: rem !important;
+    color:rgba($color: #000000, $alpha: 0.7) !important;
+}
+
+
+section{
+    flex-basis:57%;
+}
+.aside{
+    margin-top:50px;
+    text-align: center;;
+}
+
+// hr
+//  {
+//    transform:rotate(90deg);
+//    position:absolute;
+//    left:130px;
+//    border:2px;
+//  }

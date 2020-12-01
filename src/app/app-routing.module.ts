@@ -1,3 +1,4 @@
+import { ContactsuccessComponent } from './contactsuccess/contactsuccess.component';
 import { BookingsuccessComponent } from './bookingsuccess/bookingsuccess.component';
 import { EventselectionComponent } from './eventselection/eventselection.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path:"bookingsuccess",
     component:BookingsuccessComponent
+  },
+  {
+    path:"contactsuccess",
+    component:ContactsuccessComponent
   }
 
 ];

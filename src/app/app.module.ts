@@ -13,6 +13,8 @@ import { CardsComponent } from './cards/cards.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { EventselectionComponent } from './eventselection/eventselection.component';
 import { BookingsuccessComponent } from './bookingsuccess/bookingsuccess.component';
+import { ArrowComponent } from './arrow/arrow.component';
+import { ContactsuccessComponent } from './contactsuccess/contactsuccess.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { BookingsuccessComponent } from './bookingsuccess/bookingsuccess.compone
     UserDetailsComponent,
     EventselectionComponent,
     BookingsuccessComponent,
+    ArrowComponent,
+    ContactsuccessComponent,
     
   ],
   imports: [

@@ -1,4 +1,13 @@
 @import 'bulma';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css';
 @import 'https://cdn.rawgit.com/octoshrimpy/bulma-o-steps/master/bulma-steps.css';
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300&display=swap');
 /* You can add global styles to this file, and also import other style files */
+
+
+#hr-shadow{
+    height: 9px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  }
+  
